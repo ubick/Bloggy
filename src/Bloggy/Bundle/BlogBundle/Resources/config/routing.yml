@@ -1,0 +1,17 @@
+Bloggy_homepage:
+  pattern: /
+  defaults: { _controller: BloggyBlogBundle:Page:index }
+  requirements:
+    _method: GET
+
+Bloggy_about:
+  pattern: /about
+  defaults: { _controller: BloggyBlogBundle:Page:about }
+  requirements:
+    _method: GET   
+    
+Bloggy_contact:
+  pattern: /contact
+  defaults: { _controller: BloggyBlogBundle:Page:contact }
+  requirements:
+    _method: GET      
